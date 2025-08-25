@@ -1,5 +1,5 @@
 import Link from "next/link";
-import WFLFont from "../../.next/types/app/fonts/football";
+import logo from './media/logo.svg';
 
 export default function NavBar() {
     return (
@@ -9,6 +9,7 @@ export default function NavBar() {
             <li><Link href="/">Home</Link></li>
             <li><Link href="/about">About</Link></li>
         </ul>
+        <img src={logo} alt="WFL Logo" />
         </nav>
     )
 }
