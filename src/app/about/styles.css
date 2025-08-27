@@ -1,0 +1,9 @@
+.header {
+    font-size: 1.875rem;   /* Tailwind's text-3xl = 30px ≈ 1.875rem */
+    line-height: 2.25rem;  /* Tailwind sets line-height too */
+    font-weight: 700;      /* font-bold */
+    color: #A23131; 
+    
+    text-align: center;
+    padding: 2rem;
+}
