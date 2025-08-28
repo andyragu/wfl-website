@@ -8,6 +8,7 @@ export default function NavBar() {
         <ul className="flex gap-4 text-[#A23131] font-sans font-bold">
             <li><Link href="/">Home</Link></li>
             <li><Link href="/about">About</Link></li>
+            <li><Link href="/archives">Archives</Link></li>
         </ul>
         {/* <img src={logo} alt="WFL Logo" /> */}
         </nav>

@@ -1,0 +1,21 @@
+.section-header {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #e5e7eb;
+  width: 50%;                 
+  margin: 0 auto;
+  padding-bottom: 0.5rem;
+}
+  
+.section-header .featured {
+  font-weight: bold;
+  color: #A23131;
+}
+
+.featured-section {
+  display: flex;
+  justify-content: center;
+  width: 50%;                 
+  margin: 0 auto;
+  padding-bottom: 0.5rem;
+}
