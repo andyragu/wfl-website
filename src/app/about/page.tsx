@@ -25,10 +25,10 @@ export default function About(){
               2023-2024: Clout International
             </li>
             <li>
-              2022-2023: Eric
+              2022-2023: Shitter Inc.
             </li>
             <li>
-              2021-2022: Jack
+              2021-2022: The Good Brothers
             </li>
           </ul>
         </div>

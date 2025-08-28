@@ -44,16 +44,6 @@ export default function Standings() {
     });
   }, [teams]);
 
-  function bump(id: string, field: "wins" | "losses" | "ties", delta: 1 | -1) {
-    setTeams((prev) =>
-      prev.map((t) =>
-        t.id === id
-          ? { ...t, [field]: Math.max(0, (t[field] ?? 0) + delta) }
-          : t
-      )
-    );
-  }
-
   return (
     <div className="w-full mx-auto max-w-4xl">
       <div className="flex items-end justify-between mb-4">
@@ -82,10 +72,10 @@ export default function Standings() {
                 <td className="px-4 py-3 font-medium text-gray-700">{i + 1}</td>
                 <td className="px-4 py-3 text-gray-600 font-medium">{t.name}</td>
                 <td className="px-4 py-3 text-gray-600">{t.manager ?? "-"}</td>
-                <td className="px-4 py-3 text-center">{t.wins ?? 0}</td>
-                <td className="px-4 py-3 text-center">{t.losses ?? 0}</td>
-                <td className="px-4 py-3 text-center">{t.ties ?? 0}</td>
-                <td className="px-4 py-3 text-center">
+                <td className="px-4 py-3 text-gray-600 text-center">{t.wins ?? 0}</td>
+                <td className="px-4 py-3 text-gray-600 text-center">{t.losses ?? 0}</td>
+                <td className="px-4 py-3 text-gray-600 text-center">{t.ties ?? 0}</td>
+                <td className="px-4 py-3 text-gray-600 text-center">
                   {(pct(t.wins, t.losses, t.ties) * 100).toFixed(1)}%
                 </td>
               </tr>
