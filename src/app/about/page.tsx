@@ -7,7 +7,7 @@ export default function About(){
           <p>
             The WFL is a fantasy football league born during the height of the
             COVID-19 pandemic in 2021, forged through nightly Call of Duty: Warzone
-            sessions among friends. The Haaretz has claimed "we're a vibrant and rich universe".
+            sessions among friends. The Haaretz has claimed &quot;we&apos;re a vibrant and rich universe&quot;.
           </p>
           <p>
             Originally composed of 10 members, the league had a merger with the WBWA

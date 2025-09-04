@@ -11,7 +11,7 @@ type Team = {
 };
 
 const TEAMS: Team[] = [
-  { id: "1",  name: "This team is ran by Palantir", manager: "Andy",     wins: 0, losses: 0, ties: 0 },
+  { id: "1",  name: "Palmer Luckey's Fantasy Team", manager: "Andy",     wins: 0, losses: 0, ties: 0 },
   { id: "2",  name: "Came",                         manager: "Daniel",   wins: 0, losses: 0, ties: 0 },
   { id: "3",  name: "KRAFT YAC & CHEESE",           manager: "Drew",     wins: 0, losses: 0, ties: 0 },
   { id: "4",  name: "Wake and Baker Co.",           manager: "Jonah",    wins: 0, losses: 0, ties: 0 },
@@ -32,7 +32,7 @@ function pct(w = 0, l = 0, t = 0) {
 }
 
 export default function Standings() {
-  const [teams, setTeams] = useState<Team[]>(TEAMS);
+  const [teams] = useState<Team[]>(TEAMS);
 
   const sorted = useMemo(() => {
     return [...teams].sort((a, b) => {

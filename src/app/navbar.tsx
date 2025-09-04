@@ -1,5 +1,4 @@
 import Link from "next/link";
-import logo from './media/logo.svg';
 
 export default function NavBar() {
     return (
