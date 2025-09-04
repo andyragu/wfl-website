@@ -49,7 +49,7 @@ export default function Standings() {
       <div className="flex items-end justify-between mb-4">
         <h2 className="text-2l font-bold text-[#A23131]">Current Standings</h2>
         <span className="text-xs text-gray-500">
-          Sorted by W, T, then L
+          Sorted by W and L
         </span>
       </div>
 
@@ -62,7 +62,6 @@ export default function Standings() {
               <th className="px-4 py-3 text-left">Manager</th>
               <th className="px-4 py-3 text-center w-24">W</th>
               <th className="px-4 py-3 text-center w-24">L</th>
-              <th className="px-4 py-3 text-center w-24">T</th>
               <th className="px-4 py-3 text-center w-24">Win%</th>
             </tr>
           </thead>
@@ -74,7 +73,6 @@ export default function Standings() {
                 <td className="px-4 py-3 text-gray-600">{t.manager ?? "-"}</td>
                 <td className="px-4 py-3 text-gray-600 text-center">{t.wins ?? 0}</td>
                 <td className="px-4 py-3 text-gray-600 text-center">{t.losses ?? 0}</td>
-                <td className="px-4 py-3 text-gray-600 text-center">{t.ties ?? 0}</td>
                 <td className="px-4 py-3 text-gray-600 text-center">
                   {(pct(t.wins, t.losses, t.ties) * 100).toFixed(1)}%
                 </td>
