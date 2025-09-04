@@ -1,0 +1,29 @@
+.header {
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.title-name {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 0.25rem;
+}
+
+.divider {
+    border-bottom: 1px solid #e5e7eb;
+    margin: 0 auto 1.5rem auto;
+    max-width: 600px;
+}
+
+.post-meta {
+    font-size: 0.875rem;
+    color: #4b5563;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.article {
+    color: #000000;
+}
