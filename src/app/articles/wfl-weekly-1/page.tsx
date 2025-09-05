@@ -66,8 +66,8 @@ export default function WFLWeekly1(){
                         </ul>
 
                         <h2>{`Power Rankings`}</h2>
-                        <p>{`(By Jeremias Di Vico & Alejandro Lopez)
-                        This years power rankings going into Week 1 are divided into five tiers as you’ll see below:`}</p>
+                        <p>{`(By Jeremias Di Vico & Alejandro Lopez)`}</p>
+                        <p>{`This years power rankings going into Week 1 are divided into five tiers as you’ll see below:`}</p>
 
                         <ul className="list-none space-y-6">
                         <li>{`
