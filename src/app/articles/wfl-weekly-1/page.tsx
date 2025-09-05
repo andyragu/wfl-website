@@ -70,71 +70,54 @@ export default function WFLWeekly1(){
                         <p>{`This years power rankings going into Week 1 are divided into five tiers as you’ll see below:`}</p>
 
                         <ul className="list-none space-y-6">
-                        <li>{`
-                        -OP-
-                        Andy - 
-                        Following possibly the most ground-shifting set of trades ever seen with last year's DraftPickGate, Andy easily comes in on a tier of his own. With the best RB core and a top WR room, anything less than a championship* is unacceptable for this team.
-                        `}</li>
+                            {/* OP Tier */}
+                            <li>
+                                <h3 className="font-bold text-lg">{`-OP-`}</h3>
+                                <p>
+                                {`Andy - Following possibly the most ground-shifting set of trades ever seen with last year's DraftPickGate, Andy easily comes in on a tier of his own. With the best RB core and a top WR room, anything less than a championship* is unacceptable for this team.`}
+                                </p>
+                            </li>
 
-                        <li>{`
-                        -Very Good-
-                        Jere - 
-                        WHL Truther comes in to 2025 riding the predicted success of BTJ, trying to pair him for some extra points with Clemson champion T-Law. The RB room, best TE in fantasy, the better Bengals wideout and we can’t help but predict a strong finish for Jere. Will injuries plague him? Will hindsight bias plague him? We don’t know. Rest assured some draft texts will arrive on managers’ phones to better his depth.
-                        `}</li>
+                            {/* Very Good Tier */}
+                            <li>
+                                <h3 className="font-bold text-lg">{`-Very Good-`}</h3>
+                                <p>
+                                {`Jere - WHL Truther comes in to 2025 riding the predicted success of BTJ, trying to pair him for some extra points with Clemson champion T-Law. The RB room, best TE in fantasy, the better Bengals wideout and we can’t help but predict a strong finish for Jere. Will injures plague him? Will hindsight bias plague him? We don’t know. Rest assured some draft texts will arrive on managers phone’s to better his depth. `}
+                                </p>
+                                <p>
+                                {`Parker -  While starting the draft changing the password to WussiesCentel, downing 2 pint sized Twisted Teas, and declaring BINGO before anyone could muster a few boxes, Parker enters week 1 with a solid team all around. Built around Puka and Bijan, Parker’s draft picks of Scary Terry, James Fabian Cook and Zay Flowers strike fear into opponents who may be calling for help instead. Depth, coming at a high price for any WFL manager, is probably the only gripe we have here. `}
+                                </p>
+                                <p>
+                                {`Jack - The QB whisperer himself, many will try to replicate, but never succeed. Jack entered Johnny’s apartment with a bonified QB1 at the end of the draft, and Jack took full advantage. Excellent studs, high projections, but 2 QB headass? That’s a head scratcher. Maybe a Jere jab on the waiver? We love the sound of that. `}
+                                </p>
+                                <p>
+                                {`Fab - Fabian. One of the most storied and famous WFL Managers, enters the year with an extremely solid RB duo on his roster. A question mark lays large on Travis Hunters offensive effectiveness, and could old age affect Tae’s knees? We don’t know. We couldn’t write this review without the 2 TE Headass draft strategy. Speaking to many managers, nobody is interested in taking the aging Travis Kelce, and that could really spell doom for the iconic “why do you want him then” trade talks with this manager. Ggs. `}
+                                </p>
+                            </li>
 
-                        <li>{`
-                        Parker - 
-                        While starting the draft changing the password to WussiesCentel, downing 2 pint sized Twisted Teas, and declaring BINGO before anyone could muster a few boxes, Parker enters week 1 with a solid team all around. Built around Puka and Bijan, Parker’s draft picks of Scary Terry, James Fabian Cook and Zay Flowers strike fear into opponents who may be calling for help instead. Depth, coming at a high price for any WFL manager, is probably the only gripe we have here.
-                        `}</li>
+                            {/* Solid Tier */}
+                            <li>
+                                <h3 className="font-bold text-lg">{`-Solid-`}</h3>
+                                <p>{`Ale - With a decidedly keeperless and Ale-coded draft through and through, it is little surprise to see the outspoken manager in the solid division. His duo of PPR RBs paired with a fortunate Justin Jefferson fall to pick 6 is one of the more underrated cores across the league. However, the puzzling Bo Nix pick and uncertain flex players leave a lot to be desired. Ale will look to use his league-high 6 remaining timeouts to buy his team enough time for another deep playoff run.`}</p>
+                                <p>{`Eric - The Award Winner of WFL’s hardest to find team in 2025 has to go Mr.Eric, manager of ~Jonah’s Xbox Gamertag~. The stack of the Burrow and Chase is arguably the best stack in the league, and Eric’s WR room is straight up elite. Do we love his RB room? Depth outside of that? Not really. We expect some cursed GGs out of this group and big wins needed. As a decorated champion (hold my 2023 chip) we can never count Eric out season-long. `}</p>
+                                <p>{`Jonah - With a heavy heart, we announce the death of his royal highness, Kyle Jonah Pitts. It just didn’t work out this year. The belief in the 2025 Lions stands true here, and in terms of wide depth across the slots in Yahoo, we have to love the names we see. Could we see Garrett benefiting from a new OC, and Slick Rick taking the mantles of SF’s WR1 after Deebo’s departure? Lets see. We can guarantee some name aura though, a sentiment we can’t share with other managers.`}</p>
+                                <p>{`Drew - The team-name savant and former commissioner leaves his post to enter the draft with a great team. A eagles stack, Nico Collins, Devon 22-ppg Achane strike fear into the new week as managers refresh their screens to find out they play him. The concussion expert Olave and question marks around the Browns RB room leave some to be desired, but you can bet Aaron Calf Strain Jones (all on one side btw) will cede touches to Jordan Mason. Who doesn’t love that. `}</p>
+                                <p>{`Andres -  In his first draft apart from Mesa, Andres pulled off some signature reaches, going all in on a rookie RB core early. Despite this, the lone Bang Bro has among the most exciting WR rooms in the league with Josh Allen to boot. While Andres could certainly surprise if his slew of rookies pan out, thats a big IF. Will Andres prove Mesa was the issue all this time or will his rookie-fueled hubris spell his end? All eyes are on the recent divorcee this season.`}</p>
+                            </li>
 
-                        <li>{`
-                        Jack - 
-                        The QB whisperer himself, many will try to replicate, but never succeed. Jack entered Johnny’s apartment with a bonafide QB1 at the end of the draft, and Jack took full advantage. Excellent studs, high projections, but 2 QB headass? That’s a head scratcher. Maybe a Jere jab on the waiver? We love the sound of that.
-                        `}</li>
+                            {/* Ass Tier */}
+                            <li>
+                                <h3 className="font-bold text-lg">{`-Ass-`}</h3>
+                                <p>{`Johnny - Johnny was the final victim of the DraftPickGate, but despite this, he came out with a solid team. While he is missing the top-end talent that the top of the league sports, his scrappy band of mid-rounders have the upside to steal some games. While we were impressed with the outcome, the suspended Rashee Rice and an uncertain RB room could be Johnny's downfall. However, one thing is certain: this won't be Johnny's team for long.`}</p>
+                            </li>
 
-                        <li>{`
-                        Fab - 
-                        Fabian. One of the most storied and famous WFL Managers, enters the year with an extremely solid RB duo on his roster. A question mark lays large on Travis Hunter’s offensive effectiveness, and could old age affect Tae’s knees? We don’t know. We couldn’t write this review without the 2 TE Headass draft strategy. Speaking to many managers, nobody is interested in taking the aging Travis Kelce, and that could really spell doom for the iconic “why do you want him then” trade talks with this manager. GGs.
-                        `}</li>
-
-                        <li>{`
-                        -Solid-
-                        Ale - 
-                        With a decidedly keeperless and Ale-coded draft through and through, it is little surprise to see the outspoken manager in the solid division. His duo of PPR RBs paired with a fortunate Justin Jefferson fall to pick 6 is one of the more underrated cores across the league. However, the puzzling Bo Nix pick and uncertain flex players leave a lot to be desired. Ale will look to use his league-high 6 remaining timeouts to buy his team enough time for another deep playoff run.
-                        `}</li>
-
-                        <li>{`
-                        Eric - 
-                        The Award Winner of WFL’s hardest to find team in 2025 has to go Mr. Eric, manager of ~Jonah’s Xbox Gamertag~. The stack of Burrow and Chase is arguably the best stack in the league, and Eric’s WR room is straight up elite. Do we love his RB room? Depth outside of that? Not really. We expect some cursed GGs out of this group and big wins needed. As a decorated champion (hold my 2023 chip) we can never count Eric out season-long.
-                        `}</li>
-
-                        <li>{`
-                        Jonah - 
-                        With a heavy heart, we announce the death of his royal highness, Kyle Jonah Pitts. It just didn’t work out this year. The belief in the 2025 Lions stands true here, and in terms of wide depth across the slots in Yahoo, we have to love the names we see. Could we see Garrett benefiting from a new OC, and Slick Rick taking the mantle of SF’s WR1 after Deebo’s departure? Let’s see. We can guarantee some name aura though, a sentiment we can’t share with other managers.
-                        `}</li>
-
-                        <li>{`
-                        Drew - 
-                        The team-name savant and former commissioner leaves his post to enter the draft with a great team. An Eagles stack, Nico Collins, Devon 22-ppg Achane strike fear into the new week as managers refresh their screens to find out they play him. The concussion expert Olave and question marks around the Browns RB room leave some to be desired, but you can bet Aaron Calf Strain Jones (all on one side btw) will cede touches to Jordan Mason. Who doesn’t love that.
-                        `}</li>
-
-                        <li>{`
-                        Andres - 
-                        In his first draft apart from Mesa, Andres pulled off some signature reaches, going all in on a rookie RB core early. Despite this, the lone Bang Bro has among the most exciting WR rooms in the league with Josh Allen to boot. While Andres could certainly surprise if his slew of rookies pan out, that’s a big IF. Will Andres prove Mesa was the issue all this time or will his rookie-fueled hubris spell his end? All eyes are on the recent divorcee this season.
-                        `}</li>
-
-                        <li>{`
-                        -Ass-
-                        Johnny - 
-                        Johnny was the final victim of the DraftPickGate, but despite this, he came out with a solid team. While he is missing the top-end talent that the top of the league sports, his scrappy band of mid-rounders have the upside to steal some games. While we were impressed with the outcome, the suspended Rashee Rice and an uncertain RB room could be Johnny's downfall. However, one thing is certain: this won’t be Johnny’s team for long.
-                        `}</li>
-
-                        <li>{`
-                        -Dirt-
-                        Daniel - 
-                        Severely hamstrung by DraftPickGate last year, Daniel comes in with among the worst drafted rosters to ever grace the WFL. Despite the manager's storied history of hate with the position, Daniel decided on an RB-RB start that will have to fuel his victories this season, as his WRs for lack of a better term, are ass. With draft pick trading out of sight and out of mind, Daniel will need a miracle from the fantasy gods to push for a playoff spot and more this year.
-                        `}</li>
+                            {/* Dirt Tier */}
+                            <li>
+                                <h3 className="font-bold text-lg">{`-Dirt-`}</h3>
+                                <p>{`Daniel - Severely hamstrung by DraftPickGate last year, Daniel comes in with among the worst drafted rosters to ever grace the WFL. Despite the manager's storied history of hate with the position, Daniel decided on an RB-RB start that will have to fuel his victories this season, as his WRs for lack of a better term, are ass. With draft pick trading out of sight and out of mind, Daniel will need a miracle from the fantasy gods to push for a playoff spot and more this year.`}</p>
+                            </li>
                         </ul>
+
 
 
 
