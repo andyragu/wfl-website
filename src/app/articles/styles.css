@@ -26,4 +26,14 @@
 
 .article {
     color: #000000;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    line-height: 1.6;
 }
+
+.article p { margin: 0.9rem 0; }
+.article h2 { margin: 2rem 0 0.75rem; font-size: 1.25rem; font-weight: 800; }
+.article h3 { margin: 1.25rem 0 0.5rem; font-weight: 700; }
+.article ul { margin: 0.75rem 0; padding-left: 1rem; }
+.article ul.list-none { list-style: none; padding-left: 0; }

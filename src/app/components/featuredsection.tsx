@@ -13,7 +13,7 @@ const POSTS: Post[] = [
       id: "1",
       title: "WFL Weekly 5 - Week 1: A Changing of the Guard",
       desc: "Recovering from Sleepy Drew",
-      author: "Papa Jack Media, Commish Media",
+      author: "Papa Jack Media, Ale, Jere",
       date: "Aug 28",
     },
 ];
