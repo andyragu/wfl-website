@@ -7,7 +7,7 @@ export default function WFLWeekly1(){
                 <h1 className="title-name">WFL Weekly 5 - Week 1: 
                 A Changing of the Guard</h1>
                 <div className="post-meta">
-                    Papa Jack Media, Ale, Jere · Sep 28
+                    Papa Jack Media, Ale, Jere · Aug 28
                 </div>
                 <div className="divider"></div>
                 <div className="article">

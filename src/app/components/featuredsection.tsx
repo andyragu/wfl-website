@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Url } from "url";
 
 type Post = {
     id: string;
@@ -6,6 +7,7 @@ type Post = {
     desc?: string;           // subtitle / description
     author?: string;
     date?: string;
+    href?: any;
 };
 
 const POSTS: Post[] = [
@@ -15,6 +17,15 @@ const POSTS: Post[] = [
       desc: "Recovering from Sleepy Drew",
       author: "Papa Jack Media, Ale, Jere",
       date: "Aug 28",
+      href: "/articles/wfl-weekly-1",
+    },
+    {
+      id: "2",
+      title: "WFL Weekly 5 - Week 2: Highs & Lows",
+      desc: "Life is all about the ups and downs",
+      author: "Papa Jack Media",
+      date: "Sep 12",
+      href: "/articles/wfl-weekly-2",
     },
 ];
 
@@ -38,7 +49,7 @@ export default function FeaturedSection() {
                   {/* title */}
                   {/* TODO: Make this dynamic so it changes depending on article (RIGHT NOW COMPLETELY MANUAL) */}
                   <h3 className="text-2xl font-extrabold text-gray-900">
-                    <Link href="/articles/wfl-weekly-1">{p.title}</Link>
+                    <Link href={p.href}>{p.title}</Link>
                   </h3>
   
                   {/* desc */}
