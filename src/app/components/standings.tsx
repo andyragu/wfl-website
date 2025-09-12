@@ -11,18 +11,18 @@ type Team = {
 };
 
 const TEAMS: Team[] = [
-  { id: "1",  name: "Palmer Luckey's Fantasy Team", manager: "Andy",     wins: 0, losses: 0, ties: 0 },
-  { id: "2",  name: "Came",                         manager: "Daniel",   wins: 0, losses: 0, ties: 0 },
-  { id: "3",  name: "KRAFT YAC & CHEESE",           manager: "Drew",     wins: 0, losses: 0, ties: 0 },
-  { id: "4",  name: "Wake and Baker Co.",           manager: "Jonah",    wins: 0, losses: 0, ties: 0 },
-  { id: "5",  name: "The Bang Bros",                manager: "Andres",   wins: 0, losses: 0, ties: 0 },
-  { id: "6",  name: "Marvin's Room",                manager: "Jack",     wins: 0, losses: 0, ties: 0 },
-  { id: "7",  name: "Edna Mode and Guest",          manager: "Ale",      wins: 0, losses: 0, ties: 0 },
-  { id: "8",  name: "Hall of Fame Youtuber",        manager: "Fabian",   wins: 0, losses: 0, ties: 0 },
-  { id: "9",  name: "XxBond201xX",                  manager: "Eric",    wins: 0, losses: 0, ties: 0 },
-  { id: "10", name: "Golden Ford Focus",            manager: "Johnny",   wins: 0, losses: 0, ties: 0 },
-  { id: "11", name: "Worse than WHL",               manager: "Jeremias", wins: 0, losses: 0, ties: 0 },
-  { id: "12", name: "This is a call for help",      manager: "Parker",   wins: 0, losses: 0, ties: 0 },
+  { id: "1",  name: "Take me to Valhalla Lamar", manager: "Andy",     wins: 1, losses: 0, ties: 0 },
+  { id: "2",  name: "Came",                         manager: "Daniel",   wins: 0, losses: 1, ties: 0 },
+  { id: "3",  name: "KRAFT YAC & CHEESE",           manager: "Drew",     wins: 1, losses: 0, ties: 0 },
+  { id: "4",  name: "Wake and Baker Co.",           manager: "Jonah",    wins: 0, losses: 1, ties: 0 },
+  { id: "5",  name: "The Bang Bros",                manager: "Andres",   wins: 1, losses: 0, ties: 0 },
+  { id: "6",  name: "Marvin's Room",                manager: "Jack",     wins: 0, losses: 1, ties: 0 },
+  { id: "7",  name: "How u gonna urmm naoww danggg",          manager: "Ale",      wins: 1, losses: 0, ties: 0 },
+  { id: "8",  name: "Hall of Fame Youtuber",        manager: "Fabian",   wins: 1, losses: 0, ties: 0 },
+  { id: "9",  name: "Why you gotta up an jittleyang", manager: "Eric",    wins: 0, losses: 1, ties: 0 },
+  { id: "10", name: "Golden Boys",                  manager: "Johnny",   wins: 0, losses: 1, ties: 0 },
+  { id: "11", name: "Worse than WHL",               manager: "Jeremias", wins: 0, losses: 1, ties: 0 },
+  { id: "12", name: "This is a call for help",      manager: "Parker",   wins: 1, losses: 0, ties: 0 },
 ];
 
 function pct(w = 0, l = 0, t = 0) {
