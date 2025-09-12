@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { Url } from "url";
 
 type Post = {
     id: string;
@@ -7,7 +6,7 @@ type Post = {
     desc?: string;           // subtitle / description
     author?: string;
     date?: string;
-    href?: any;
+    href: string;
 };
 
 const POSTS: Post[] = [
