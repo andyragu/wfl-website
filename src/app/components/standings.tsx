@@ -8,21 +8,22 @@ type Team = {
   wins?: number;
   losses?: number;
   ties?: number;
+  pf?: number;
 };
 
 const TEAMS: Team[] = [
-  { id: "1",  name: "Take me to Valhalla Lamar", manager: "Andy",     wins: 1, losses: 0, ties: 0 },
-  { id: "2",  name: "Came",                         manager: "Daniel",   wins: 0, losses: 1, ties: 0 },
-  { id: "3",  name: "KRAFT YAC & CHEESE",           manager: "Drew",     wins: 1, losses: 0, ties: 0 },
-  { id: "4",  name: "Wake and Baker Co.",           manager: "Jonah",    wins: 0, losses: 1, ties: 0 },
-  { id: "5",  name: "The Bang Bros",                manager: "Andres",   wins: 1, losses: 0, ties: 0 },
-  { id: "6",  name: "Marvin's Room",                manager: "Jack",     wins: 0, losses: 1, ties: 0 },
-  { id: "7",  name: "How u gonna urmm naoww danggg",          manager: "Ale",      wins: 1, losses: 0, ties: 0 },
-  { id: "8",  name: "Hall of Fame Youtuber",        manager: "Fabian",   wins: 1, losses: 0, ties: 0 },
-  { id: "9",  name: "Why you gotta up an jittleyang", manager: "Eric",    wins: 0, losses: 1, ties: 0 },
-  { id: "10", name: "Golden Boys",                  manager: "Johnny",   wins: 0, losses: 1, ties: 0 },
-  { id: "11", name: "Worse than WHL",               manager: "Jeremias", wins: 0, losses: 1, ties: 0 },
-  { id: "12", name: "This is a call for help",      manager: "Parker",   wins: 1, losses: 0, ties: 0 },
+  { id: "1",  name: "Take me to Valhalla Lamar", manager: "Andy",     wins: 1, losses: 0, ties: 0, pf: 150.96 },
+  { id: "2",  name: "Came",                         manager: "Daniel",   wins: 0, losses: 1, ties: 0, pf: 77.12 },
+  { id: "3",  name: "KRAFT YAC & CHEESE",           manager: "Drew",     wins: 1, losses: 0, ties: 0, pf: 125.08 },
+  { id: "4",  name: "Wake and Baker Co.",           manager: "Jonah",    wins: 0, losses: 1, ties: 0, pf: 148.28 },
+  { id: "5",  name: "The Bang Bros",                manager: "Andres",   wins: 1, losses: 0, ties: 0, pf: 163.96  },
+  { id: "6",  name: "Marvin's Room",                manager: "Jack",   wins: 0, losses: 1, ties: 0, pf: 161.92  },
+  { id: "7",  name: "How u gonna urmm naoww danggg",          manager: "Ale",      wins: 1, losses: 0, ties: 0, pf: 119.14 },
+  { id: "8",  name: "Hall of Fame Youtuber",        manager: "Fabian",   wins: 1, losses: 0, ties: 0, pf: 124.02 },
+  { id: "9",  name: "Why you gotta up an jittleyang", manager: "Eric",    wins: 0, losses: 1, ties: 0, pf: 89.42 },
+  { id: "10", name: "Golden Boys",                  manager: "Johnny",   wins: 0, losses: 1, ties: 0, pf: 88.32},
+  { id: "11", name: "Worse than WHL",               manager: "Jeremias", wins: 0, losses: 1, ties: 0, pf: 118.92},
+  { id: "12", name: "This is a call for help",      manager: "Parker",   wins: 1, losses: 0, ties: 0, pf: 159.18},
 ];
 
 export default function Standings() {
@@ -34,6 +35,7 @@ export default function Standings() {
       if ((b.wins ?? 0) !== (a.wins ?? 0)) return (b.wins ?? 0) - (a.wins ?? 0);
       if ((b.ties ?? 0) !== (a.ties ?? 0)) return (b.ties ?? 0) - (a.ties ?? 0);
       if ((a.losses ?? 0) !== (b.losses ?? 0)) return (a.losses ?? 0) - (b.losses ?? 0);
+      if (((b.wins ?? 0) == (a.wins ?? 0) ) && ((b.ties ?? 0) == (a.ties ?? 0)) && ((a.losses ?? 0) == (b.losses ?? 0))) return (b.pf ?? 0) - (a.pf ?? 0);
       return a.name.localeCompare(b.name);
     });
   }, [teams]);
