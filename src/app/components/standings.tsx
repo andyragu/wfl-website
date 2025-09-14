@@ -25,12 +25,6 @@ const TEAMS: Team[] = [
   { id: "12", name: "This is a call for help",    manager: "Parker",   wins: 1, losses: 0, ties: 0 },
 ];
 
-function pct(w = 0, l = 0, t = 0) {
-  const g = (w ?? 0) + (l ?? 0) + (t ?? 0);
-  if (g === 0) return 0;
-  return (w + 0.5 * (t ?? 0)) / g;
-}
-
 export default function Standings() {
   const [teams] = useState<Team[]>(TEAMS);
 
