@@ -26,6 +26,14 @@ const POSTS: Post[] = [
       date: "Sep 12",
       href: "/articles/wfl-weekly-2",
     },
+    {
+      id: "3",
+      title: "WFL Weekly 5 - Week 3: Honeymoons & Heartaches",
+      desc: "Point out your partner's imperfections",
+      author: "Papa Jack Media",
+      date: "Sep 19",
+      href: "/articles/wfl-weekly-3",
+    },
 ];
 
 export default function FeaturedSection() {

@@ -12,18 +12,18 @@ type Team = {
 };
 
 const TEAMS: Team[] = [
-  { id: "1",  name: "Take me to Valhalla Lamar", manager: "Andy",     wins: 1, losses: 0, ties: 0, pf: 150.96 },
-  { id: "2",  name: "Came",                         manager: "Daniel",   wins: 0, losses: 1, ties: 0, pf: 77.12 },
-  { id: "3",  name: "KRAFT YAC & CHEESE",           manager: "Drew",     wins: 1, losses: 0, ties: 0, pf: 125.08 },
-  { id: "4",  name: "Wake and Baker Co.",           manager: "Jonah",    wins: 0, losses: 1, ties: 0, pf: 148.28 },
-  { id: "5",  name: "The Bang Bros",                manager: "Andres",   wins: 1, losses: 0, ties: 0, pf: 163.96  },
-  { id: "6",  name: "Marvin's Room",                manager: "Jack",   wins: 0, losses: 1, ties: 0, pf: 161.92  },
-  { id: "7",  name: "How u gonna urmm naoww danggg",          manager: "Ale",      wins: 1, losses: 0, ties: 0, pf: 119.14 },
-  { id: "8",  name: "Hall of Fame Youtuber",        manager: "Fabian",   wins: 1, losses: 0, ties: 0, pf: 124.02 },
-  { id: "9",  name: "Why you gotta up an jittleyang", manager: "Eric",    wins: 0, losses: 1, ties: 0, pf: 89.42 },
-  { id: "10", name: "Golden Boys",                  manager: "Johnny",   wins: 0, losses: 1, ties: 0, pf: 88.32},
-  { id: "11", name: "Worse than WHL",               manager: "Jeremias", wins: 0, losses: 1, ties: 0, pf: 118.92},
-  { id: "12", name: "This is a call for help",      manager: "Parker",   wins: 1, losses: 0, ties: 0, pf: 159.18},
+  { id: "1",  name: "Take me to Valhalla Lamar", manager: "Andy",     wins: 2, losses: 0, ties: 0, pf: 299.86 },
+  { id: "2",  name: "Came",                         manager: "Daniel",   wins: 1, losses: 1, ties: 0, pf: 192.40 },
+  { id: "3",  name: "KRAFT YAC & CHEESE",           manager: "Drew",     wins: 1, losses: 1, ties: 0, pf: 264.62 },
+  { id: "4",  name: "Wake and Baker Co.",           manager: "Jonah",    wins: 1, losses: 1, ties: 0, pf: 303.86 },
+  { id: "5",  name: "The Bang Bros",                manager: "Andres",   wins: 1, losses: 1, ties: 0, pf: 268.98  },
+  { id: "6",  name: "Marvin's Room",                manager: "Jack",   wins: 0, losses: 2, ties: 0, pf: 282.62  },
+  { id: "7",  name: "How u gonna urmm naoww danggg",          manager: "Ale",      wins: 1, losses: 1, ties: 0, pf: 225.54 },
+  { id: "8",  name: "Hall of Fame Youtuber",        manager: "Fabian",   wins: 2, losses: 0, ties: 0, pf: 267.92 },
+  { id: "9",  name: "Why you gotta up an jittleyang", manager: "Eric",    wins: 0, losses: 2, ties: 0, pf: 196.36 },
+  { id: "10", name: "Golden Boys",                  manager: "Johnny",   wins: 0, losses: 2, ties: 0, pf: 192.60},
+  { id: "11", name: "Worse than WHL",               manager: "Jeremias", wins: 1, losses: 1, ties: 0, pf: 266.66},
+  { id: "12", name: "This is a call for help",      manager: "Parker",   wins: 2, losses: 0, ties: 0, pf: 345.98},
 ];
 
 export default function Standings() {
