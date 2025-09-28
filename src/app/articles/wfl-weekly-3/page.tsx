@@ -1,7 +1,7 @@
 import "../styles.css"
 
 
-export default function WFLWeekly2(){
+export default function WFLWeekly3(){
     return (
         <main className = "min-h-screen bg-[#ffffff]">
             <div className="header">
