@@ -57,35 +57,35 @@ export default function WFLWeekly5(){
                     <p>&nbsp;</p>
                     <ol>
                     <li>
-                    <p><span style={{ whiteSpace: 'pre-wrap' }} data-tt="{&quot;paragraphStyle&quot;:{&quot;alignment&quot;:4,&quot;style&quot;:102,&quot;writingDirection&quot;:1}}">Rome Wasn&rsquo;t Built in a Day (Parker) </span></p>
+                    <p><span style={{ whiteSpace: 'pre-wrap' }} data-tt="{&quot;paragraphStyle&quot;:{&quot;alignment&quot;:4,&quot;style&quot;:102,&quot;writingDirection&quot;:1}}">1. Rome Wasn&rsquo;t Built in a Day (Parker) </span></p>
                     </li>
                     </ol>
                     <p><span style={{ whiteSpace: 'pre-wrap' }} data-tt="{&quot;paragraphStyle&quot;:{&quot;alignment&quot;:4,&quot;writingDirection&quot;:1}}">Parker finds himself in unfamiliar territory this season, having one of the most dominant rosters despite being an unlucky 2-2. Bijan Robinson, James Cook, and Puka Nacua are anchor this roster, with 2nd season breakout Rome Odunze adding more fuel to the fire. He has the firepower to win every matchup, but we worry about his depth as bye weeks and injuries start to pile up&hellip; </span></p>
                     <p>&nbsp;</p>
                     <ol>
                     <li>
-                    <p><span style={{ whiteSpace: 'pre-wrap' }} data-tt="{&quot;paragraphStyle&quot;:{&quot;alignment&quot;:4,&quot;style&quot;:102,&quot;writingDirection&quot;:1,&quot;startingListItemNumber&quot;:2}}">Wake and Baker Co. (Jonah) </span></p>
+                    <p><span style={{ whiteSpace: 'pre-wrap' }} data-tt="{&quot;paragraphStyle&quot;:{&quot;alignment&quot;:4,&quot;style&quot;:102,&quot;writingDirection&quot;:1,&quot;startingListItemNumber&quot;:2}}">2. Wake and Baker Co. (Jonah) </span></p>
                     </li>
                     </ol>
                     <p><span style={{ whiteSpace: 'pre-wrap' }} data-tt="{&quot;paragraphStyle&quot;:{&quot;alignment&quot;:4,&quot;writingDirection&quot;:1}}">As group leader of the Wussies, it&rsquo;s only fitting that Jonah cracks the top 3 in our inaugural WFL Hierarchy. Jonah&rsquo;s roster seems to be the antithesis of Parker&rsquo;s. This team is extremely deep but still has fire power in the form of Jahmyr Gibbs &amp; Garrett Wilson, a perfect balance that we have seen lead to fantasy success in the past. This team likely won&rsquo;t dazzle you, but it will overwhelm you at every roster slot. We think Wake and Baker Co. is set up well for a playoff bid, but we wouldn&rsquo;t be surprised to see him cash in on another star player. </span></p>
                     <p>&nbsp;</p>
                     <ol>
                     <li>
-                    <p><span style={{ whiteSpace: 'pre-wrap' }} data-tt="{&quot;paragraphStyle&quot;:{&quot;alignment&quot;:4,&quot;style&quot;:102,&quot;writingDirection&quot;:1,&quot;startingListItemNumber&quot;:3}}">I ❤️ Ohio (Alejandro) </span></p>
+                    <p><span style={{ whiteSpace: 'pre-wrap' }} data-tt="{&quot;paragraphStyle&quot;:{&quot;alignment&quot;:4,&quot;style&quot;:102,&quot;writingDirection&quot;:1,&quot;startingListItemNumber&quot;:3}}">3. I ❤️ Ohio (Alejandro) </span></p>
                     </li>
                     </ol>
                     <p><span style={{ whiteSpace: 'pre-wrap' }} data-tt="{&quot;paragraphStyle&quot;:{&quot;alignment&quot;:4,&quot;writingDirection&quot;:1}}">Owner of WussiesGPT, former WFL Champion, and known Dr. Bob enjoyer, Alejandro finds himself &ldquo;on the podium&rdquo; after an up-and-down start to the season. Ale has built a solid roster with a pair of anchor RBs in Kyren and Omarion, paired with an extremely good WR core of JJetas, Worthy, and Pickens. He&rsquo;s also got solid depth with Olave and Stevenson, but we worry that this team will fade as the season goes on. Pickens and Worthy will both likely see their roles diminish as CeeDee and Rashee &ldquo;Fried&rdquo; Rice return from injury/suspension, but for now Alejandro is riding high. Jonah. </span></p>
                     <p>&nbsp;</p>
                     <ol>
                     <li>
-                    <p><span style={{ whiteSpace: 'pre-wrap' }} data-tt="{&quot;paragraphStyle&quot;:{&quot;alignment&quot;:4,&quot;style&quot;:102,&quot;writingDirection&quot;:1,&quot;startingListItemNumber&quot;:4}}">Marvin&rsquo;s Room (Jack) </span></p>
+                    <p><span style={{ whiteSpace: 'pre-wrap' }} data-tt="{&quot;paragraphStyle&quot;:{&quot;alignment&quot;:4,&quot;style&quot;:102,&quot;writingDirection&quot;:1,&quot;startingListItemNumber&quot;:4}}">4. Marvin&rsquo;s Room (Jack) </span></p>
                     </li>
                     </ol>
                     <p><span style={{ whiteSpace: 'pre-wrap' }} data-tt="{&quot;paragraphStyle&quot;:{&quot;alignment&quot;:4,&quot;writingDirection&quot;:1}}">This team&hellip; man. Talk about underperforming. Jack has all the pieces in place to yet again be a dominant force in the WFL and we&rsquo;d have him a spot or two higher if not for current struggles of longtime Mud Brother Derick Henry and Mazda Marv coupled with a few ill-timed injuries to Bucky Irving and Trey Benson. He&rsquo;s got a stud WR in JSN that will likely challenge for the league lead in targets, and Fat Deebo has held things together fairly well thus far through the struggles. The addition of Jayden Daniels this week should bring a much needed morale boost and we expect this team to start making a turnaround soon. </span></p>
                     <p>&nbsp;</p>
                     <ol>
                     <li>
-                    <p><span style={{ whiteSpace: 'pre-wrap' }} data-tt="{&quot;paragraphStyle&quot;:{&quot;alignment&quot;:4,&quot;style&quot;:102,&quot;writingDirection&quot;:1,&quot;startingListItemNumber&quot;:5}}">KRAFT YAC &amp; CHEESE (Drew) </span></p>
+                    <p><span style={{ whiteSpace: 'pre-wrap' }} data-tt="{&quot;paragraphStyle&quot;:{&quot;alignment&quot;:4,&quot;style&quot;:102,&quot;writingDirection&quot;:1,&quot;startingListItemNumber&quot;:5}}">5. KRAFT YAC &amp; CHEESE (Drew) </span></p>
                     </li>
                     </ol>
                     <p><span style={{ whiteSpace: 'pre-wrap' }} data-tt="{&quot;paragraphStyle&quot;:{&quot;alignment&quot;:4,&quot;writingDirection&quot;:1}}">We&rsquo;d like to think that before every weekly matchup, Drew sits his players from KRAFT YAC &amp; CHEESE in front a TV, and they just watch the &quot;I WOKE UP FEELIN THE CHEESIEST COACH&quot; Cheez-It commercial over and over again. This potentially concerning fact aside, Drew&rsquo;s squad definitely have been doing something right, as they sit firmly at the top of the WFL sporting a Top 3 Points For scoring offense. The catalysts of this offensive explosion have been none other than team captain Tucker Kraft, Jaylen Warren, De&apos;Von Achane, and Jalen Hurts to Watch, just to name a few. Just how far can this team fly? Will AJ Brown ever return to former glory? The pieces are here to KRAFT blueprints for a deep run, they just have to settle in and hope they YAC when the lights are the brightest. At the very least, they&rsquo;ll always have some check down CHEESE to Achane to fall back on. </span></p>
@@ -93,21 +93,21 @@ export default function WFLWeekly5(){
                     <p>&nbsp;</p>
                     <ol>
                     <li>
-                    <p><span style={{ whiteSpace: 'pre-wrap' }} data-tt="{&quot;paragraphStyle&quot;:{&quot;alignment&quot;:4,&quot;style&quot;:102,&quot;writingDirection&quot;:1,&quot;startingListItemNumber&quot;:6}}">Worse than WHL (Jeremias) </span></p>
+                    <p><span style={{ whiteSpace: 'pre-wrap' }} data-tt="{&quot;paragraphStyle&quot;:{&quot;alignment&quot;:4,&quot;style&quot;:102,&quot;writingDirection&quot;:1,&quot;startingListItemNumber&quot;:6}}">6. Worse than WHL (Jeremias) </span></p>
                     </li>
                     </ol>
                     <p><span style={{ whiteSpace: 'pre-wrap' }} data-tt="{&quot;paragraphStyle&quot;:{&quot;alignment&quot;:4,&quot;writingDirection&quot;:1}}">As they say, &ldquo;There&rsquo;s nothing wrong with him, he&rsquo;s just dumb&rdquo;. And there is absolutely nothing wrong with Worse than WHL, it just seems that real-life NFL coaches have a personal vendetta against Jeremias in fantasy, which makes this WR room&hellip; yikes. The bright spot for Jeremias is obviously his RB depth, as JT is having a resurgent year under Indiana Jones and CMC is harnessing the life force of every other 49ers player to stay healthy. Pair that with a young rising player like Judkins and CTE enthusiast Cam Skattebo, and you have the best RB room in the league. If good health continues and some NFL teams make good real-life decisions (Bengals trade for Jameis, Steelers banish Arthur Smith, and Jaguars give BTJ hand replacement surgery), then we could see Jere move up a few spots. </span></p>
                     <p>&nbsp;</p>
                     <ol>
                     <li>
-                    <p><span style={{ whiteSpace: 'pre-wrap' }} data-tt="{&quot;paragraphStyle&quot;:{&quot;alignment&quot;:4,&quot;style&quot;:102,&quot;writingDirection&quot;:1,&quot;startingListItemNumber&quot;:7}}">The Bang Bros (Andres) </span></p>
+                    <p><span style={{ whiteSpace: 'pre-wrap' }} data-tt="{&quot;paragraphStyle&quot;:{&quot;alignment&quot;:4,&quot;style&quot;:102,&quot;writingDirection&quot;:1,&quot;startingListItemNumber&quot;:7}}">7. The Bang Bros (Andres) </span></p>
                     </li>
                     </ol>
                     <p><span style={{ whiteSpace: 'pre-wrap' }} data-tt="{&quot;paragraphStyle&quot;:{&quot;alignment&quot;:4,&quot;writingDirection&quot;:1}}">If The Bang Bros and Worse than WHL had a baby it would be the greatest WFL team in history. That is to say Andres has the complete OPPOSITE problem to Jeremias and that&rsquo;s the fact that his RB room has been absolutely putrid this season. Treyveon Henderson and RJ Harvey have been the biggest let-downs of this rookie RB class and there aren&rsquo;t many other options that Andres can turn to. Fortunately, all-time Wussies nickname legends Amon Jah, Egg on my Buka, and Kendrick American make up probably the best WR room in the league this year. And of course Josh Allen doesn&rsquo;t hurt either. Andres is going to need a serious bounce-back from those rookie RBs, or we could see him sitting around the middle of the hierarchy most of the season. </span></p>
                     <p>&nbsp;</p>
                     <ol>
                     <li>
-                    <p><span style={{ whiteSpace: 'pre-wrap' }} data-tt="{&quot;paragraphStyle&quot;:{&quot;alignment&quot;:4,&quot;style&quot;:102,&quot;writingDirection&quot;:1,&quot;startingListItemNumber&quot;:8}}">fent folding (Andy) </span></p>
+                    <p><span style={{ whiteSpace: 'pre-wrap' }} data-tt="{&quot;paragraphStyle&quot;:{&quot;alignment&quot;:4,&quot;style&quot;:102,&quot;writingDirection&quot;:1,&quot;startingListItemNumber&quot;:8}}">8. fent folding (Andy) </span></p>
                     </li>
                     </ol>
                     <p><span style={{ whiteSpace: 'pre-wrap' }} data-tt="{&quot;paragraphStyle&quot;:{&quot;alignment&quot;:4,&quot;writingDirection&quot;:1}}">This is a team that would probably be higher on this list, but Andy seems to have unfortunately squandered all the advantage given to him by his extra draft picks in what can only be described as the longest duration crash-out in WFL history. Early-season injuries to Lamar, CeeDee, and Mike Evans bump him down a few pegs, and the mega-deal with Eric and Jeremias is clearly not going his way thus far. When his team starts getting healthy we&rsquo;ll probably see him move up the Hierarchy, but blowing all your FAAB and then starting Darius Slayton is generally not the position you want to be in. </span></p>
@@ -117,21 +117,21 @@ export default function WFLWeekly5(){
                     <p>&nbsp;</p>
                     <ol>
                     <li>
-                    <p><span style={{ whiteSpace: 'pre-wrap' }} data-tt="{&quot;paragraphStyle&quot;:{&quot;alignment&quot;:4,&quot;style&quot;:102,&quot;writingDirection&quot;:1,&quot;startingListItemNumber&quot;:10}}">Hall of Fame YouTuber (Fabian) </span></p>
+                    <p><span style={{ whiteSpace: 'pre-wrap' }} data-tt="{&quot;paragraphStyle&quot;:{&quot;alignment&quot;:4,&quot;style&quot;:102,&quot;writingDirection&quot;:1,&quot;startingListItemNumber&quot;:10}}">10. Hall of Fame YouTuber (Fabian) </span></p>
                     </li>
                     </ol>
                     <p><span style={{ whiteSpace: 'pre-wrap' }} data-tt="{&quot;paragraphStyle&quot;:{&quot;alignment&quot;:4,&quot;writingDirection&quot;:1}}">As we do every week, we here at WFL Weekly wish you good luck with injuries and leave the rest up to the higher powers. The irony for Fabian is he IS one of those higher powers and yet couldn&rsquo;t save his own team. After strategically placing Travis Kelce to take out Xavier Worthy in Week 1 to ensure he wouldn&rsquo;t be available in Week 3 for his matchup against I ❤️ Ohio, it seems karmic retribution is finally catching up to this team. An incredibly unfortunate injury to Malik Nabers sends Fabian cratering down the ranks. Paired with underperformance from supposed two-way superstar Travis Hunter and Chase Brown, Fabian finds himself with an uphill climb if he&rsquo;s going to make the playoffs. </span></p>
                     <p>&nbsp;</p>
                     <ol>
                     <li>
-                    <p><span style={{ whiteSpace: 'pre-wrap' }} data-tt="{&quot;paragraphStyle&quot;:{&quot;alignment&quot;:4,&quot;style&quot;:102,&quot;writingDirection&quot;:1,&quot;startingListItemNumber&quot;:11}}">Rico Suave (Johnny) </span></p>
+                    <p><span style={{ whiteSpace: 'pre-wrap' }} data-tt="{&quot;paragraphStyle&quot;:{&quot;alignment&quot;:4,&quot;style&quot;:102,&quot;writingDirection&quot;:1,&quot;startingListItemNumber&quot;:11}}">11. Rico Suave (Johnny) </span></p>
                     </li>
                     </ol>
                     <p><span style={{ whiteSpace: 'pre-wrap' }} data-tt="{&quot;paragraphStyle&quot;:{&quot;alignment&quot;:4,&quot;writingDirection&quot;:1}}">No manager has the potential to make as wild swings up and down the Hierarchy as Trade2Trade Man himself. Unfortunately, he finds himself down near the bottom after a series of trades that seem to have left him right back where he started. Time is a flat circle. We thought his team was really looking up after the acquisition of Javonte Williams and a bounce-back performance by Omarion Hampton following a disappointing few weeks to start the season. Johnny decided to trade his star power for depth, and we don&rsquo;t necessarily blame him in this wild world of injuries. It&rsquo;ll all depend on how these newly acquired players shake out, as well as Rashee Rice&rsquo;s performance upon return, but for now he finds himself near the bottom of the hierarchy. </span></p>
                     <p>&nbsp;</p>
                     <ol>
                     <li>
-                    <p><span style={{ whiteSpace: 'pre-wrap' }} data-tt="{&quot;paragraphStyle&quot;:{&quot;alignment&quot;:4,&quot;style&quot;:102,&quot;writingDirection&quot;:1,&quot;startingListItemNumber&quot;:12}}">Cumming&hellip; (Daniel) </span></p>
+                    <p><span style={{ whiteSpace: 'pre-wrap' }} data-tt="{&quot;paragraphStyle&quot;:{&quot;alignment&quot;:4,&quot;style&quot;:102,&quot;writingDirection&quot;:1,&quot;startingListItemNumber&quot;:12}}">12. Cumming&hellip; (Daniel) </span></p>
                     </li>
                     </ol>
                     <p><span style={{ whiteSpace: 'pre-wrap' }} data-tt="{&quot;paragraphStyle&quot;:{&quot;alignment&quot;:4,&quot;writingDirection&quot;:1}}">A victim of his own actions, we find Daniel at the bottom of the WFL hierarchy. He flew too close to the sun and got burned, mortgaging too much draft capital in hopes of a WFL championship last season. Unfortunately, the fantasy gods continue to smite him as punishment for his wrongdoings by taking away both James Conner and Austin Ekeler for the season. But that doesn&rsquo;t mean the Peach is down and out. Strategic waiver pickups in Woody Marks and Justin Fields could see this scrappy team start to make a turn around. We don&rsquo;t see this team moving up too high in the power rankings, but that doesn&rsquo;t mean a few close wins can&rsquo;t change his fortune in the WFL standings. </span></p>
