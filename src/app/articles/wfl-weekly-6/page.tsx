@@ -1,5 +1,6 @@
 import "../styles.css"
-
+import Image from "next/image";
+import Ale from "../../../../public/Ohio.png"
 
 export default function WFLWeekly5(){
     return (
@@ -12,7 +13,6 @@ export default function WFLWeekly5(){
                 </div>
                 <div className="divider"></div>
                 <div className="article">
-                    <h1 dir="ltr"><span>WFL WEEKLY 5 - Week 6: ScheduleGate</span></h1>
                     <p dir="ltr"><span>*Taken from a investigative report done by an anonymous journalist*</span></p>
                     <p dir="ltr"><span>We&rsquo;ve arrived at one of the first big blunders of the current WFL Commissioner&rsquo;s reign. The WFL has seen an uptick in ratings this season, as trades are crazier, upsets are more plentiful, and injuries are more devastating. While this does shed a positive light on the beginning of Commissioner Andy Agudelo&rsquo;s tenure thus far, it does not absolve him from carrying out his basic duties and responsibilities as the figurehead for the WFL. In what can only be described as incomprehensible error, we would like to draw your attention to the Divisions side of the WFL.&nbsp;</span></p>
                     <p dir="ltr"><span>A new addition to the WFL, each of the WFL teams were placed in four divisions to start off the league year, resulting in three teams in each. After some fine tuning and naming rights deals, the Cummish, 33176+, sybau, and Trade2Trade were born. And while they might not have had an overwhelmingly league-changing effect on the WFL, GMs have had a more positive than negative opinion on the change, and there is plenty of room for growth. Or at least, there can be, if the Commissioner holds up his end of the bargain. Upon research into divisional play this year, combined with what was told to GMs during the Owner&apos;s Meeting and in league circles, divisional play would occur at the beginning and end of season. This would allow each team to play their division rivals twice, not unlike how the system works in the NFL. And should the schedule reflect those rules, all would be well and good. But the schedule does not reflect those rules. The WFL season schedule is wrong.&nbsp;</span></p>
@@ -78,40 +78,40 @@ export default function WFLWeekly5(){
                     <p dir="ltr"><span>Some call it brilliance, some call it vision. From our perspective, we&rsquo;ll just call it idiocracy. We are of course talking about Andres&rsquo; decision to blow up his entire roster 6 weeks into the season. We can&rsquo;t say we don&rsquo;t understand it, as starting Treyveon Henderson and RJ Harvey for 6 straight weeks would be enough to drive anyone insane. But the return Andres got for his star-studded WR room and league-best fantasy QB was poor, at best. Such rash decisions find him slipping two spots down the WFL Hierarchy.</span></p>
                     <ol>
                         <li dir="ltr" >
-                            <p dir="ltr"><span>Wake and Baker Co. (Jonah)</span></p>
+                            <p dir="ltr"><span>1. Wake and Baker Co. (Jonah)</span></p>
                         </li>
                         <li dir="ltr" >
-                            <p dir="ltr"><span>Rome wasn&rsquo;t built in a day (Parker)</span></p>
+                            <p dir="ltr"><span>2. Rome wasn&rsquo;t built in a day (Parker)</span></p>
                         </li>
                         <li dir="ltr" >
-                            <p dir="ltr"><span>Worse than WHL (Jeremias)</span></p>
+                            <p dir="ltr"><span>3. Worse than WHL (Jeremias)</span></p>
                         </li>
                         <li dir="ltr" >
-                            <p dir="ltr"><span>Marvin&rsquo;s Room (Jack)</span></p>
+                            <p dir="ltr"><span>4. Marvin&rsquo;s Room (Jack)</span></p>
                         </li>
                         <li dir="ltr" >
-                            <p dir="ltr"><span>KRAFT YAC &amp; CHEESE (Drew)</span></p>
+                            <p dir="ltr"><span>5. KRAFT YAC &amp; CHEESE (Drew)</span></p>
                         </li>
                         <li dir="ltr" >
-                            <p dir="ltr"><span>andy (Andy)</span></p>
+                            <p dir="ltr"><span>6. andy (Andy)</span></p>
                         </li>
                         <li dir="ltr" >
-                            <p dir="ltr"><span>I ❤️ Ohio (Alejandro)</span></p>
+                            <p dir="ltr"><span>7. I ❤️ Ohio (Alejandro)</span></p>
                         </li>
                         <li dir="ltr" >
-                            <p dir="ltr"><span>Build the Waller (Eric)</span></p>
+                            <p dir="ltr"><span>8. Build the Waller (Eric)</span></p>
                         </li>
                         <li dir="ltr" >
-                            <p dir="ltr"><span>The Bang Bros (Andres)</span></p>
+                            <p dir="ltr"><span>9. The Bang Bros (Andres)</span></p>
                         </li>
                         <li dir="ltr" >
-                            <p dir="ltr"><span>Rico Suave (Johnny)</span></p>
+                            <p dir="ltr"><span>10. Rico Suave (Johnny)</span></p>
                         </li>
                         <li dir="ltr" >
-                            <p dir="ltr"><span>Hall of Fame Youtuber (Fabian)</span></p>
+                            <p dir="ltr"><span>11. Hall of Fame Youtuber (Fabian)</span></p>
                         </li>
                         <li dir="ltr" >
-                            <p dir="ltr"><span>Cumming&hellip; (Daniel)</span></p>
+                            <p dir="ltr"><span>12. Cumming&hellip; (Daniel)</span></p>
                         </li>
                     </ol>
                     <h2 dir="ltr"><span>The Art of a Team Name:</span></h2>
@@ -122,6 +122,7 @@ export default function WFLWeekly5(){
                     <p dir="ltr"><span>KRAFT YAC &amp; CHEESE (Drew) - &quot;My inspiration for my team name right now is of course my team captain and known YAC monster, Tucker Kraft. I have split opinions when it comes to teams that constantly change their name. I think that it&rsquo;s perfectly normal to change the name when you acquire a new player or trade away the namesake of your team. But the other managers who change their name without reason clearly lack a team identity and don&rsquo;t show capable leadership to their players.&quot;</span></p>
                     <p dir="ltr"><span>Wake and Baker Co. (Jonah) - &quot;The inspiration for my team name continues to come from top 3 QB in the NFL, Baker Mayfield, who is a renowned icon at Wake and Baker Co. headquarters. We may have traded him for that bum in Buffalo but we expect that Baker&rsquo;s spirit will continue to inspire our organization on the path to a playoff berth.&quot;</span></p>
                     <p dir="ltr"><span>I ❤️ Ohio (Ale) -&nbsp;</span></p>
+                    <Image src={Ale} alt="ale."/>
                     <p dir="ltr"><span>&quot;My inspo for the team name.</span></p>
                     <p dir="ltr"><span>After getting a mug from Jonah for secret santa, I have tried to focus my team name on either Clout International or good omens. Me and Eric had the Baltimore thing going on for a few weeks. I love good omens and find teams with consistent names may have the most success.&quot;</span></p>
                     <p dir="ltr"><span>Build The Waller (Eric) - &quot;The shiny new name of our team pays respects to one of the great team names that has ever existed in the Wussies universe. Team name has got to be just as important as the players you draft on draft night. Team name sets the tone. Team name adds aura. Our squad was looking for a new name for a few weeks and we didn&rsquo;t really have the identity until just a few weeks ago.&quot;</span></p>
@@ -135,7 +136,7 @@ export default function WFLWeekly5(){
                             <p dir="ltr"><span>With many options to choose from this week for the WFL Weekly Game of the Week, we turned to the people to see who they thought was worthy of the honor. In an overwhelming majority, WFL GMs were firmly in favor of Rico Suave vs. The Bang Bros as this week&rsquo;s must-see matchup. One GM described the bout as one &quot;with a rich history&quot;, while another perfectly encapsulated the feelings surrounding this game, stating that these GMs had &quot;Two teams with a lot to prove and a lot to lose&quot;. And all of this was gathered BEFORE The Bang Bros took a chainsaw to their team&rsquo;s foundation. To say this week&rsquo;s game between Johnny &amp; Andres has shifted into maximum overdrive would be an understatement, as now both WFL GMs are sporting squads that are almost entirely unrecognizable from the start of the season. As detailed earlier, Johnny has done an admirable job at attempting to trade himself to the top, and could be beginning to see the fruits of his labor. When asked about the matchup and his opponent this week, he told us &quot;Honestly Mr. Reid, this matchup is what I believe is what determines whether I&rsquo;m actually a competitive team, or if my last two weeks have been luck. Andres is no weak opponent, but his QB is throwing my WR touchdowns now so I think I have solid odds.&quot; Andres seemingly had enough of the boom-or-bust run his team was on, and completely cleaned house. When we sat down with him to ask his thoughts on this week&rsquo;s matchup and his opponent, he broke it down quite simply for us, stating &quot;It&rsquo;s anyone&rsquo;s game. This week will not define my future. The decisions that both of us made are with dreams of what lies ahead.&quot; Andres also had nothing but praise for his opponent, calling him &quot;Big Brain. (He) certified yapped himself into having a decent team. He (like myself) will be a surprising playoff candidate now?&quot; The energy surrounding this game is off the charts. You can practically feel the intrigue and excitement in the air as two teams with a lot to prove get ready to bring their absolute best. Johnny has certainly turned many of his doubters into believers, and made preseason predictions look very foolish in the process. Can he incredibly claw his way back to .500 and establish himself as a dark horse in this league? Andres certifiably put his stamp on The Bang Bros team, and is truly the captain of his fate now as he tries to earn his way towards his first solo playoff berth. He set fire to the roster, but will a phoenix rise from the ashes? We find out the answer to both questions in a few short days.</span></p>
                         </li>
                     </ul>
-                    <p dir="ltr"><span>Upset Watch of the Week: Wake and Baker Co. (Jonah) vs. KRAFT YAC &amp; CHEESE (Drew)</span></p>
+                    <h3 dir="ltr"><span>Upset Watch of the Week: Wake and Baker Co. (Jonah) vs. KRAFT YAC &amp; CHEESE (Drew)</span></h3>
                     <ul>
                         <li dir="ltr" >
                             <p dir="ltr"><span>We came oh so close to predicting yet another upset last week, as KRAFT YAC &amp; CHEESE was just able to scrape out a win against Marvin&apos;s Room. But with little other options, the only right move to make here is to run it back. Wake and Baker Co. have a revamped roster and look to test out their might this week as Josh Allen is the new captain of Jonah&rsquo;s squad. Jaylen Waddle is out, and Drake London is in, providing a boost or downgrade to the WR core depending on who you&rsquo;re talking to. Jonah will hope that Penix plays more consistently and maximizes London&rsquo;s skillset this week and going forward. While Drew does get his favorite Tight End back this week in Tucker Kraft, Nico Collins &amp; Jordan Mason on bye provide a couple of holes in the lineup that we&rsquo;re skeptical Troy Franklin &amp; Malik Washington can fill. Drew also is having to put a lot of trust in Calvin Ridley following his season-best performance last week against the Cardinals. Does Jonah&rsquo;s squad have what it takes to get back on track with a big victory? Or will Drew slam the door shut yet again on another upset-hopeful team?</span></p>
@@ -149,6 +150,7 @@ export default function WFLWeekly5(){
                     <p dir="ltr"><span>#1 KRAFT YAC &amp; CHEESE (Drew) vs. #8 Wake and Baker Co. (Jonah) ✅</span></p>
                     <p dir="ltr"><span>#2 I ❤️ Ohio (Ale) vs. #3 andy (Andy) ✅</span></p>
                     <p dir="ltr"><span>#10 Rico Suave (Johnny) vs. #7 The Bang Bros (Andres) ✅</span></p>
+                    <div className="divider"></div>
                     <p dir="ltr"><span>Divisional Standings</span></p>
                     <p dir="ltr"><span>(Divisional Record in parentheses)</span></p>
                     <p dir="ltr"><span>Cummish Division</span></p>
