@@ -50,6 +50,14 @@ const POSTS: Post[] = [
       date: "Oct 5",
       href: "/articles/wfl-weekly-5",
     },
+    {
+      id: "6",
+      title: "WFL Weekly 5 - Week 6: ScheduleGate",
+      desc: "The Man with No Name",
+      author: "Papa Jack Media",
+      date: "Oct 11",
+      href: "/articles/wfl-weekly-6",
+    },
 ];
 
 export default function FeaturedSection() {
