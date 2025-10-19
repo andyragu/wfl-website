@@ -4,10 +4,9 @@ export default function WFLWeekly7(){
     return (
         <main className = "min-h-screen bg-[#ffffff]">
             <div className="header">
-                <h1 className="title-name">WFL Weekly 5 - Week 6: 
-                ScheduleGate</h1>
+                <h1 className="title-name">WFL Weekly 5 - Week 7: Beer</h1>
                 <div className="post-meta">
-                    Papa Jack Media · Oct. 11
+                    Papa Jack Media · Oct. 19
                 </div>
                 <div className="divider"></div>
                 <div className="article">
