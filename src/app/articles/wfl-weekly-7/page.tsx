@@ -1,6 +1,4 @@
 import "../styles.css"
-import Image from "next/image";
-import Ale from "../../../../public/Ohio.png"
 
 export default function WFLWeekly7(){
     return (
