@@ -66,6 +66,14 @@ const POSTS: Post[] = [
       date: "Oct 11",
       href: "/articles/wfl-weekly-7",
     },
+    {
+      id: "8",
+      title: "WFL Weekly 5 - Week 8: The Dog Days",
+      desc: "Tua has eater eyes.",
+      author: "Papa Jack Media",
+      date: "Oct 26",
+      href: "/articles/wfl-weekly-8",
+    },
 ];
 
 export default function FeaturedSection() {
