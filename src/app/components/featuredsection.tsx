@@ -74,6 +74,14 @@ const POSTS: Post[] = [
       date: "Oct 26",
       href: "/articles/wfl-weekly-8",
     },
+    {
+      id: "9",
+      title: "WFL Weekly 5 - Week 9: The Sunday (& Monday) Scaries",
+      desc: "Fantasy Horror Stories",
+      author: "Papa Jack Media",
+      date: "Nov 2",
+      href: "/articles/wfl-weekly-9",
+    },
 ];
 
 export default function FeaturedSection() {
