@@ -82,6 +82,14 @@ const POSTS: Post[] = [
       date: "Nov 2",
       href: "/articles/wfl-weekly-9",
     },
+    {
+      id: "10",
+      title: "WFL Weekly 5 - Week 10: Bye Week",
+      desc: "Stop watching football",
+      author: "Papa Jack Media",
+      date: "Nov 9",
+      href: "/articles/wfl-weekly-10",
+    },
 ];
 
 export default function FeaturedSection() {
