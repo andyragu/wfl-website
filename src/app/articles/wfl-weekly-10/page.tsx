@@ -4,7 +4,7 @@ export default function WFLWeekly10(){
     return (
         <main className = "min-h-screen bg-[#ffffff]">
             <div className="header">
-                <h1 className="title-name">WFL Weekly 5 - Week 8: Beer</h1>
+                <h1 className="title-name">WFL Weekly 5 - Week 10: Bye Week</h1>
                 <div className="post-meta">
                     Papa Jack Media · Nov. 9
                 </div>
@@ -79,40 +79,40 @@ export default function WFLWeekly10(){
                     <p>Rankings:</p>
                     <ol>
                         <li>
-                            <p>Wake and Baker Co.</p>
+                            <p>1. Wake and Baker Co.</p>
                         </li>
                         <li>
-                            <p>yakub</p>
+                            <p>2. yakub</p>
                         </li>
                         <li>
-                            <p>Forgive me Father for my sins</p>
+                            <p>3. Forgive me Father for my sins</p>
                         </li>
                         <li>
-                            <p>Worse than WHL</p>
+                            <p>4. Worse than WHL</p>
                         </li>
                         <li>
-                            <p>Marvin&rsquo;s Room</p>
+                            <p>5. Marvin&rsquo;s Room</p>
                         </li>
                         <li>
-                            <p>Hall of Fame Youtuber</p>
+                            <p>6. Hall of Fame Youtuber</p>
                         </li>
                         <li>
-                            <p>Kraft YAC &amp; Cheese</p>
+                            <p>7. Kraft YAC &amp; Cheese</p>
                         </li>
                         <li>
-                            <p>Rico Suave</p>
+                            <p>8. Rico Suave</p>
                         </li>
                         <li>
-                            <p>I ❤️ Ohio</p>
+                            <p>9. I ❤️ Ohio</p>
                         </li>
                         <li>
-                            <p>Build the Waller</p>
+                            <p>10. Build the Waller</p>
                         </li>
                         <li>
-                            <p>The Bang Bros</p>
+                            <p>11. The Bang Bros</p>
                         </li>
                         <li>
-                            <p>Cumming&hellip;</p>
+                            <p>12. Cumming&hellip;</p>
                         </li>
                     </ol>
                     <p><br></br></p>
