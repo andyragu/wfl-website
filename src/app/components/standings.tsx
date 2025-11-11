@@ -12,18 +12,18 @@ type Team = {
 };
 
 const TEAMS: Team[] = [
-  { id: "1",  name: "yakub", manager: "Andy",     wins: 6, losses: 2, ties: 0, pf: 1063.22 },
-  { id: "2",  name: "Cumming...",                         manager: "Daniel",   wins: 1, losses: 7, ties: 0, pf: 901.74 },
-  { id: "3",  name: "KRAFT YAC & CHEESE",           manager: "Drew",     wins: 6, losses: 2, ties: 0, pf: 1156.00 },
-  { id: "4",  name: "Wake and Baker Co.",           manager: "Jonah",    wins: 5, losses: 3, ties: 0, pf: 1127.68 },
-  { id: "5",  name: "The Bang Bros",                manager: "Andres",   wins: 2, losses: 6, ties: 0, pf: 981.44  },
-  { id: "6",  name: "Marvin's Room",                manager: "Jack",   wins: 3, losses: 5, ties: 0, pf: 1027.42  },
-  { id: "7",  name: "I ❤️ Ohio",                   manager: "Ale",      wins: 6, losses: 2, ties: 0, pf: 1074.30 },
-  { id: "8",  name: "Hall of Fame Youtuber",        manager: "Fabian",   wins: 4, losses: 4, ties: 0, pf: 1029.48 },
-  { id: "9",  name: "Build the Waller",               manager: "Eric",    wins: 4, losses: 4, ties: 0, pf: 1040.94 },
-  { id: "10", name: "Rico Suave",                  manager: "Johnny",   wins: 3, losses: 5, ties: 0, pf: 896.58},
-  { id: "11", name: "Worse than WHL",               manager: "Jeremias", wins: 4, losses: 4, ties: 0, pf: 1161.12},
-  { id: "12", name: "Rome wasn't built in a day",      manager: "Parker",   wins: 4, losses: 4, ties: 0, pf: 1178.54},
+  { id: "1",  name: "Qui Gyatt Jit", manager: "Andy",     wins: 6, losses: 3, ties: 0, pf: 1188.82 	 },
+  { id: "2",  name: "Cumming...",                         manager: "Daniel",   wins: 1, losses: 8, ties: 0, pf: 999.94 },
+  { id: "3",  name: "KRAFT YAC & CHEESE",           manager: "Drew",     wins: 7, losses: 2, ties: 0, pf: 1306.76 },
+  { id: "4",  name: "Wake and Baker Co.",           manager: "Jonah",    wins: 6, losses: 3, ties: 0, pf: 1283.90 },
+  { id: "5",  name: "The Bang Bros",                manager: "Andres",   wins: 3, losses: 6, ties: 0, pf: 1124.00 },
+  { id: "6",  name: "Marvin's Room",                manager: "Jack",   wins: 3, losses: 6, ties: 0, pf: 1151.24 },
+  { id: "7",  name: "I ❤️ Ohio",                   manager: "Ale",      wins: 6, losses: 3, ties: 0, pf: 1188.40 },
+  { id: "8",  name: "Hall of Fame Youtuber",        manager: "Fabian",   wins: 5, losses: 4, ties: 0, pf: 1189.92 },
+  { id: "9",  name: "Build the Waller",               manager: "Eric",    wins: 4, losses: 5, ties: 0, pf: 1166.42 },
+  { id: "10", name: "Rico Suave",                  manager: "Johnny",   wins: 4, losses: 5, ties: 0, pf: 1030.60},
+  { id: "11", name: "Worse than WHL",               manager: "Jeremias", wins: 5, losses: 4, ties: 0, pf: 1276.40},
+  { id: "12", name: "Forgive me Father for my sins",      manager: "Parker",   wins: 4, losses: 5, ties: 0, pf: 1262.16},
 ];
 
 export default function Standings() {
