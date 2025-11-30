@@ -106,6 +106,14 @@ const POSTS: Post[] = [
       date: "Nov 23",
       href: "/articles/wfl-weekly-12",
     },
+    {
+      id: "13",
+      title: "WFL Weekly 5 - Week 13: Giving Thanks!",
+      desc: "Gobble Gobble",
+      author: "Papa Jack Media",
+      date: "Nov 30",
+      href: "/articles/wfl-weekly-13",
+    },
 ];
 
 export default function FeaturedSection() {
