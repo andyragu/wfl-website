@@ -113,7 +113,7 @@ export default function WFLWeekly13(){
 
                     <h3>Upset Watch of the Week: Shitter Inc. (Eric) vs. Wake &amp; Baker Inc. (Jonah)</h3>
                     <p>Circle this one on your calendars. When Eric &amp; Jonah get together you just know chaos is coming soon. Wake and Baker Co. put B2A in the first meeting between these two earlier this year, but both teams are far from the squads they were at this point. Does Eric have what it takes to see his squad continue to fight for playoff glory? Or is the unstoppable wave of Jonah just too much to handle? Let&rsquo;s hear what both GMS said of their matchup this week.</p>
-                    <p>Erick told us &quot;this matchup is a pretty big matchup this week against the group leader. this week is also the return of joe brrr which will make an immediate impact. he&apos;s playing a weak ravens defense and if he can play the way he can in his return i think i will have a good chance.&quot;</p>
+                    <p>Eric told us &quot;this matchup is a pretty big matchup this week against the group leader. this week is also the return of joe brrr which will make an immediate impact. he&apos;s playing a weak ravens defense and if he can play the way he can in his return i think i will have a good chance.&quot;</p>
                     <p>Jonah told us &quot;Though we are fighting for the elusive First Round Bye, I don&apos;t think its a huge priority for our organization. The goal is to get in to the playoffs. Seeding and byes don&apos;t matter, as long as you win your matchup. I think this mindset is what sets us apart and could help us to get past Eric&apos;s team this week.&quot;</p>
 
                     <h3>Predictions (Last Week&rsquo;s results: 5-1 &#x1f60e;<br />
