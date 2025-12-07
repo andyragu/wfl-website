@@ -322,7 +322,6 @@ export default function WFLWeekly13(){
                     <p><span data-tt='{"paragraphStyle":{"alignment":4,"writingDirection":1},"fontHints":2}' style={{ fontStyle: 'italic', whiteSpace: 'preWrap' }}>The only good luck that we here at WFL Weekly wish you, is good luck with injuries. Everything else is up to the higher powers.</span></p>
                     <p><br></br></p>
                     <p><span data-tt='{"paragraphStyle":{"alignment":4,"writingDirection":1},"fontHints":2}' style={{ fontStyle: 'italic', whiteSpace: 'preWrap' }}>*</span><span data-tt='{"paragraphStyle":{"alignment":4,"writingDirection":1},"fontHints":3}' style={{ fontWeight: 'bold', fontStyle: 'italic', whiteSpace: 'pre-wrap' }}>Note from the Editor*:&nbsp;</span><span data-tt='{"paragraphStyle":{"alignment":4,"writingDirection":1},"fontHints":2}' style={{ fontStyle: 'italic', whiteSpace: 'preWrap' }}>Big thank you to Andy &amp; Drew on the WFL Weekly Website team, you guys rock.</span></p>
-                    <div style={{ bottom: '10px', right: '10px', position: 'absolute' }}><a href="https://signatureforemail.com/?utm_source=wth_free_link&utm_medium=external" target="_blank" style={{ fontSize: '11px', color: '#d0d0d0' }}>Email Signature Generator</a></div>
                 </div>
             </div>
         </main>
