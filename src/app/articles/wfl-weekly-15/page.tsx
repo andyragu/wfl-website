@@ -56,7 +56,7 @@ export default function WFLWeekly14(){
                     <p><span data-tt='{"paragraphStyle":{"alignment":4,"writingDirection":1}}' style={{ whiteSpace: "pre-wrap" }}>🍩 Romeo Doubs (The Bang Bros) - Romeo Romeo, wherefore art thou Romeo?&hellip; Not on the stat sheet, that&rsquo;s for sure. Maybe the better question is where is Andres? Has anyone heard from this man? He certainly won&rsquo;t answer my texts.</span></p>
                     <p><br></br></p>
                     <p><br></br></p>
-                    <p><span data-tt='{"paragraphStyle":{"alignment":4,"style":0,"writingDirection":1}}' style={{ whiteSpace: "pre-wrap" }}>Ale&rsquo;s Trade to Trade Analysis:</span></p>
+                    <h2><span data-tt='{"paragraphStyle":{"alignment":4,"style":0,"writingDirection":1}}' style={{ whiteSpace: "pre-wrap" }}>Ale&rsquo;s Trade to Trade Analysis:</span></h2>
                     <p><span data-tt='{"paragraphStyle":{"alignment":4,"writingDirection":1}}' style={{ whiteSpace: "pre-wrap" }}>*Powered by WussiesGPT*</span></p>
                     <p><br></br></p>
                     <p><span data-tt='{"paragraphStyle":{"alignment":4,"writingDirection":1},"fontHints":2}'style={{ fontStyle: "italic", whiteSpace: "pre-wrap" }}>*Closed for Winter*</span></p>
