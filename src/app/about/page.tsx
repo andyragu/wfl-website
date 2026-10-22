@@ -19,6 +19,9 @@ export default function About(){
           <h1 className="header-1">Hall of Champions</h1>
           <ul>
             <li>
+              2025-2026: On The Cock*
+            </li>
+            <li>
               2024-2025: The Kingsmen
             </li>
             <li>
