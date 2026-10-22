@@ -110,7 +110,7 @@ export default function Standings({ leagueId = DEFAULT_LEAGUE_ID }: { leagueId?:
   return (
     <div className="w-full mx-auto max-w-4xl">
       <div className="flex items-end justify-between mb-4">
-        <h2 className="text-2xl font-bold text-[#A23131]">Current Standings</h2>
+        <h2 className="text-2xl font-bold text-[#CC0000]">Current Standings</h2>
       </div>
 
       <div className="overflow-x-auto rounded-xl bg-white shadow">

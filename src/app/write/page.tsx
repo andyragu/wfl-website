@@ -6,7 +6,7 @@ import { useRouter } from "next/navigation";
 import ArticleBody from "../components/articlebody";
 
 const inputClass =
-    "w-full border border-gray-300 rounded px-3 py-2 text-black focus:outline-none focus:border-[#A23131]";
+    "w-full border border-gray-300 rounded px-3 py-2 text-black focus:outline-none focus:border-[#CC0000]";
 
 export default function WritePage() {
     const router = useRouter();
@@ -56,7 +56,7 @@ export default function WritePage() {
                         &ldquo;{title}&rdquo; will be live in about a minute, once the site finishes updating.
                     </div>
                     <div className="divider"></div>
-                    <div className="flex justify-center gap-4 font-bold text-[#A23131]">
+                    <div className="flex justify-center gap-4 font-bold text-[#CC0000] [&_a:hover]:underline">
                         <Link href={publishedHref}>View article</Link>
                         <Link href="/">Home</Link>
                     </div>
@@ -70,7 +70,7 @@ export default function WritePage() {
             <div className="flex flex-col lg:flex-row max-w-6xl mx-auto">
                 {/* Editor */}
                 <form onSubmit={publish} className="lg:w-1/2 p-6 lg:border-r border-gray-200 text-black">
-                    <h1 className="text-xl font-bold text-[#A23131] mb-4">Write an Article</h1>
+                    <h1 className="text-xl font-bold text-[#CC0000] mb-4">Write an Article</h1>
 
                     <label className="block text-sm font-bold mb-1">Title</label>
                     <input className={`${inputClass} mb-4`} value={title} onChange={(e) => setTitle(e.target.value)}
@@ -102,17 +102,17 @@ export default function WritePage() {
                     <input type="password" className={`${inputClass} max-w-xs`} value={password}
                         onChange={(e) => setPassword(e.target.value)} autoComplete="current-password" />
 
-                    {error && <p className="mt-3 text-sm text-[#A23131]">{error}</p>}
+                    {error && <p className="mt-3 text-sm text-[#CC0000]">{error}</p>}
 
                     <button type="submit" disabled={saving}
-                        className="mt-4 px-4 py-2 rounded bg-[#A23131] text-white font-bold disabled:opacity-50">
+                        className="mt-4 px-4 py-2 rounded bg-[#CC0000] text-white font-bold hover:underline disabled:opacity-50 disabled:no-underline">
                         {saving ? "Publishing..." : "Publish to Featured"}
                     </button>
                 </form>
 
                 {/* Live preview, using the same styles as published articles */}
                 <div className="lg:w-1/2 py-6">
-                    <div className="text-center text-sm font-bold text-[#A23131] mb-2">Preview</div>
+                    <div className="text-center text-sm font-bold text-[#CC0000] mb-2">Preview</div>
                     <div className="header">
                         <h1 className="title-name">{title || "Untitled"}</h1>
                         <div className="post-meta">

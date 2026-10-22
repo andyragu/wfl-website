@@ -54,16 +54,16 @@ export default function FeaturedList({ posts }: { posts: Post[] }) {
 
         {/* Pagination */}
         {pageCount > 1 && (
-          <div className="mx-auto mt-8 w-full max-w-3xl flex justify-between items-center gap-4 border-t border-gray-200 pt-4 font-bold text-[#A23131]">
+          <div className="mx-auto mt-8 w-full max-w-3xl flex justify-between items-center gap-4 border-t border-gray-200 pt-4 font-bold text-[#CC0000]">
             <button onClick={() => setPage(page - 1)} disabled={page === 0}
-              className="whitespace-nowrap disabled:invisible">
+              className="whitespace-nowrap cursor-pointer hover:underline disabled:invisible">
               &larr; Newer
             </button>
             <span className="whitespace-nowrap text-sm text-gray-600 font-normal">
               Page {page + 1} of {pageCount}
             </span>
             <button onClick={() => setPage(page + 1)} disabled={page === pageCount - 1}
-              className="whitespace-nowrap disabled:invisible">
+              className="whitespace-nowrap cursor-pointer hover:underline disabled:invisible">
               Older &rarr;
             </button>
           </div>
