@@ -1,14 +1,5 @@
-import Link from "next/link";
 import { getArticles } from "@/lib/articles";
-
-type Post = {
-    id: string;
-    title: string;
-    desc?: string;           // subtitle / description
-    author?: string;
-    date?: string;
-    href: string;
-};
+import FeaturedList, { Post } from "./featuredlist";
 
 const POSTS: Post[] = [
     {
@@ -134,7 +125,8 @@ const POSTS: Post[] = [
 ];
 
 export default function FeaturedSection() {
-    // Articles written on the /write page are added after the hand-written ones.
+    // Hand-written posts come first, then articles written on the /write page (oldest to newest).
+    // The list is reversed so the newest article is shown first.
     const posts: Post[] = [
       ...POSTS,
       ...getArticles().map((a) => ({
@@ -145,42 +137,7 @@ export default function FeaturedSection() {
         date: a.date,
         href: `/articles/${a.slug}`,
       })),
-    ];
+    ].reverse();
 
-    return (
-      <section className="w-full">
-        {/* List */}
-        <div className="mx-auto mt-8 w-full max-w-3xl">
-          {posts.map((p, i) => (
-            <article key={p.id} className={i > 0 ? "border-t border-gray-200 pt-8 mt-8" : ""}>
-              <div className="grid grid-cols-[1fr,140px] gap-6 items-start">
-                {/* Left: text */}
-                <div>
-                  {/* author row (optional) */}
-                  {p.author && (
-                    <div className="mb-2 text-sm text-gray-600">
-                      {p.author}
-                    </div>
-                  )}
-  
-                  {/* title */}
-                  {/* TODO: Make this dynamic so it changes depending on article (RIGHT NOW COMPLETELY MANUAL) */}
-                  <h3 className="text-2xl font-extrabold text-gray-900">
-                    <Link href={p.href}>{p.title}</Link>
-                  </h3>
-  
-                  {/* desc */}
-                  {p.desc && (
-                    <p className="mt-2 text-gray-600">
-                      {p.desc}
-                    </p>
-                  )}
-                </div>
-
-              </div>
-            </article>
-          ))}
-        </div>
-      </section>
-    );
+    return <FeaturedList posts={posts} />;
   }
