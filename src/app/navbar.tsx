@@ -8,6 +8,9 @@ export default function NavBar() {
             <li><Link href="/">Home</Link></li>
             <li><Link href="/about">About</Link></li>
             <li><Link href="/archives">Archives</Link></li>
+            <li>
+                <Link href="/write" className="px-3 py-1 rounded bg-[#A23131] text-white">Write</Link>
+            </li>
         </ul>
         {/* <img src={logo} alt="WFL Logo" /> */}
         </nav>

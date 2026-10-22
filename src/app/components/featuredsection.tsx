@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { getArticles } from "@/lib/articles";
 
 type Post = {
     id: string;
@@ -133,11 +134,24 @@ const POSTS: Post[] = [
 ];
 
 export default function FeaturedSection() {
+    // Articles written on the /write page are added after the hand-written ones.
+    const posts: Post[] = [
+      ...POSTS,
+      ...getArticles().map((a) => ({
+        id: a.slug,
+        title: a.title,
+        desc: a.desc,
+        author: a.author,
+        date: a.date,
+        href: `/articles/${a.slug}`,
+      })),
+    ];
+
     return (
       <section className="w-full">
         {/* List */}
         <div className="mx-auto mt-8 w-full max-w-3xl">
-          {POSTS.map((p, i) => (
+          {posts.map((p, i) => (
             <article key={p.id} className={i > 0 ? "border-t border-gray-200 pt-8 mt-8" : ""}>
               <div className="grid grid-cols-[1fr,140px] gap-6 items-start">
                 {/* Left: text */}
